@@ -2,7 +2,7 @@
 path: "/docs/index.html"
 title: "single-spa Documentation"
 prevLink: "/"
-nextLink: "/docs/introduction"
+nextLink: "/docs/v4/introduction.html"
 ---
 
 ## Hi World
