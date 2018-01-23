@@ -9,7 +9,7 @@ const path = require("path");
 exports.createPages = async ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
-  const pageTemplate = path.resolve(`src/templates/pageTemplate.js`)
+  const docsTemplate = path.resolve(`src/templates/docsTemplate.js`)
   const blogTemplate = path.resolve(`src/templates/blogTemplate.js`)
 
   const allMarkdown = await graphql(`
@@ -32,7 +32,7 @@ exports.createPages = async ({ boundActionCreators, graphql }) => {
   }
 
   return allMarkdown.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    const template = node.frontmatter.path.startsWith('/docs/') ? pageTemplate : blogTemplate
+    const template = node.frontmatter.path.startsWith('/docs/') ? docsTemplate : blogTemplate
     createPage({
       path: node.frontmatter.path,
       component: template,
