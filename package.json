@@ -13,7 +13,8 @@
     "gatsby-remark-prismjs": "^1.2.12",
     "gatsby-source-filesystem": "^1.5.14",
     "gatsby-transformer-remark": "^1.7.29",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-typist": "^2.0.4"
   },
   "keywords": [
     "gatsby"

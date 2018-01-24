@@ -1,9 +1,15 @@
 .h1 {
   font-weight: normal;
+  margin-top: 30px;
 }
 
 .index {
   text-align: center;
+}
+
+.typing {
+  font-size: 42px;
+  font-weight: bold;
 }
 
 @media(min-width: 786px) {
