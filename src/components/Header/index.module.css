@@ -1,0 +1,32 @@
+.header {
+  padding: 36px 1em;
+}
+
+.headerText {
+  align-items: center;
+  color: inherit;
+  display: flex;
+  font-family: 'Khula', 'Helvetica', 'sans-serif';
+  font-size: 30px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.headerImg {
+  height: 62px;
+  margin: -6px 0 0; /* weird font stuff makes us use negative top margin for good alignment */
+}
+
+.headerMobileMenuBtn {
+  float: left;
+}
+
+@media(min-width: 768px) {
+  .header {
+    padding: 36px 5.5em;
+  }
+
+  .headerMobileMenuBtn {
+    display: none;
+  }
+}

@@ -1,33 +1,18 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import logoNoBg from './logo-noBG.svg'
+import styles from './index.module.css'
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
+  <header className={`sspa-primary ${styles.header}`}>
+    <div className={styles.headerMobileMenuBtn}>
+      M
     </div>
-  </div>
+    <Link to="/" className={styles.headerText}>
+      <img src={logoNoBg} alt="single-spa" className={styles.headerImg}/>
+      <span>SINGLE-SPA</span>
+    </Link>
+  </header>
 )
 
 export default Header
