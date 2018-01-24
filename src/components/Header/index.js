@@ -4,7 +4,7 @@ import logoNoBg from './logo-noBG.svg'
 import styles from './index.module.css'
 
 const Header = () => (
-  <header className={`sspa-primary ${styles.header}`}>
+  <header className={`sspa-primary sspa-container ${styles.header}`}>
     <Link to="/" className={styles.headerLogo}>
       <img src={logoNoBg} alt="single-spa" className={styles.headerImg} height="62"/>
       <span>SINGLE-SPA</span>

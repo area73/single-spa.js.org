@@ -5,3 +5,17 @@
 .sspa-primary-bg {
   background-color: #0012FF;
 }
+
+.sspa-container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media(min-width: 1024px) {
+  .sspa-container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 5.5em;
+    padding-right: 5.5em;
+  }
+}
