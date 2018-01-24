@@ -15,6 +15,7 @@
   font-size: 30px;
   justify-content: center;
   margin-bottom: 12px;
+  margin-left: -14px;
   padding-right: 15px;
   text-decoration: none;
   width: 100%;
@@ -31,7 +32,7 @@
 
 .headerNav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -42,7 +43,7 @@
   text-decoration: none;
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 768px) {
   .header {
     justify-content: space-between;
     padding-bottom: 2.25em;
@@ -55,7 +56,13 @@
 
   .headerNav > a {
     display: inline-block;
-    margin: 0 25px 12px;
+    margin: 0 10px 12px;
     padding: 5px 5px 0 5px;
+  }
+}
+
+@media(min-width: 900px) {
+  .headerNav > a {
+    margin: 0 25px 12px;
   }
 }

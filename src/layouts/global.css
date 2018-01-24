@@ -11,7 +11,7 @@
   padding-right: 1em;
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 768px) {
   .sspa-container {
     margin: 0 auto;
     max-width: 1440px;
