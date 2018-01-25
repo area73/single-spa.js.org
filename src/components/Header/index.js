@@ -10,10 +10,10 @@ const Header = () => (
       <span>SINGLE-SPA</span>
     </Link>
     <nav className={styles.headerNav}>
-      <a href="https://github.com/canopytax/single-spa">Github</a>
+      <a href="https://github.com/canopytax/single-spa" target="_blank">Github</a>
       <Link to="/docs/index.html">Docs</Link>
       <Link to="/tutorial/index.html">Getting Started</Link>
-      <a href="https://single-spa.surge.sh/">Demo</a>
+      <a href="https://single-spa.surge.sh/" target="_blank">Demo</a>
     </nav>
   </header>
 )

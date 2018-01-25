@@ -1,9 +1,9 @@
 .sspa-primary {
-  color: #0012FF;
+  color: #0011FF;
 }
 
 .sspa-primary-bg {
-  background-color: #0012FF;
+  background-color: #0011FF;
 }
 
 .sspa-container {
@@ -13,10 +13,10 @@
 
 .sspa-button {
   background-color: transparent;
-  border: 2px solid #0012FF;
+  border: 2px solid #0011FF;
   box-sizing: border-box;
   border-radius: 100px;
-  color: #0012FF;
+  color: #0011FF;
   display: inline-block;
   min-height: 50px;
   padding: 12px 32px;

@@ -16,7 +16,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <section className="sspa-container">
+    <section>
       {children()}
     </section>
   </div>

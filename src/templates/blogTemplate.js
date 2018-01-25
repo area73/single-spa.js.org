@@ -6,7 +6,7 @@ export default function Template({
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
   return (
-    <div className="page-container">
+    <div className="sspa-container">
       <div className="page">
         <h1>{frontmatter.title}</h1>
         {frontmatter.date}
