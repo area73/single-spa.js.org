@@ -24,22 +24,31 @@ export default class IndexPage extends React.Component {
 
   render() {
     return(
-      <section className={styles.index}>
-        <h1 className={styles.h1}>The javascript metaframework</h1>
-        <div className={styles.typing}>
-          { this.state.showTyping &&
-            <Typist startDelay={1000} avgTypingDelay={120} onTypingDone={this.onTypingDone} cursor={{element: "_"}}>
-              { frameworks.map(framework => (
-                <span key={framework}>
-                  <Typist.Delay ms={500}/>
-                  {framework}
-                  <Typist.Backspace count={framework.length} delay={1000}/>
-                </span>
-              ))}
-            </Typist>
-          }
-        </div>
-      </section>
+      <div>
+        <section className={styles.index}>
+          <h1 className={styles.h1}>The javascript metaframework</h1>
+          <div className={styles.typing}>
+            { this.state.showTyping &&
+              <Typist startDelay={1000} avgTypingDelay={120} onTypingDone={this.onTypingDone} cursor={{element: "_"}}>
+                { frameworks.map(framework => (
+                  <span key={framework}>
+                    <Typist.Delay ms={500}/>
+                    {framework}
+                    <Typist.Backspace count={framework.length} delay={1000}/>
+                  </span>
+                ))}
+              </Typist>
+            }
+          </div>
+          <div className={styles.buttons}>
+            <Link className="sspa-button sspa-button-gray" to="/docs/getting-started.index.html">Get Started</Link>
+            <span className={styles.buttonSeparator}>
+              <a className="sspa-button" href="https://single-spa.surge.sh/">View Demo</a>
+            </span>
+          </div>
+        </section>
+      </div>
+
     )
   }
 

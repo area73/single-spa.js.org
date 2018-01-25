@@ -11,6 +11,28 @@
   padding-right: 1em;
 }
 
+.sspa-button {
+  background-color: transparent;
+  border: 2px solid #0012FF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  color: #0012FF;
+  display: inline-block;
+  min-height: 50px;
+  padding: 12px 32px;
+  text-decoration: none;
+  transition: background-color 200ms ease-out;
+}
+
+.sspa-button:hover {
+  background-color: #e6e6e6;
+}
+
+.sspa-button.sspa-button-gray {
+  border-color: #52555A;
+  color: #52555A;
+}
+
 @media(min-width: 768px) {
   .sspa-container {
     margin: 0 auto;
