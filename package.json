@@ -29,6 +29,7 @@
     "test": "echo \"no test specified\""
   },
   "devDependencies": {
+    "gatsby-cli": "^1.1.31",
     "gh-pages": "^1.1.0",
     "prettier": "^1.10.2"
   }
