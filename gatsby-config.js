@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'single-spa Documentation',
   },
+  pathPrefix: "/single-spa.js.org",
   plugins: [
     'gatsby-plugin-react-helmet',
     {
