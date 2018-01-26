@@ -10,7 +10,7 @@ The docs are just Markdown files that can be found in `./content/docs/`. Feel fr
 To update the layouts and template of pages, you'll be working in the `./src/` folder. What you'll find there is basically a ReactJS project, getting data from a GraphQL backend using Relay. See the [development section](#developing) to get started.
 
 ## Developing
-1. `git clone https://github.com/CanopyTax/single-spa.js.org`
+1. `git clone git@github.com:CanopyTax/single-spa.js.org.git`
 1. `yarn add --global gatsby` or `npm i -g gastby`
 1. `cd single-spa.js.org`
 1. `yarn` or `npm i`
