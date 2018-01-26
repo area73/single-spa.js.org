@@ -16,7 +16,7 @@ export default HappyComponent extends React.Component {
   render() {
     return(
       <div>
-        I'm happy!
+        I'm happy! Real docs are coming soon.
       </div>
     )
   }
