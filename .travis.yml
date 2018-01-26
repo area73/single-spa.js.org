@@ -4,5 +4,7 @@ branches:
     - master
 before_script:
   - yarn global add gatsby
+  - git config --global user.name "TravisCI"
+  - git config --global user.email anthony.frehner@canopytax.com
 script:
   - yarn deploy
