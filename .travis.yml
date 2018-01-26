@@ -4,7 +4,13 @@ branches:
     - master
 before_script:
   - yarn global add gatsby
-  - git config --global user.name "Travis CI"
-  - git config --global user.email "travis@travis-ci.org"
 script:
   - yarn deploy
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
+  local-dir: public
