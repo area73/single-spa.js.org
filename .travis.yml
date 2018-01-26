@@ -6,4 +6,5 @@ deploy:
     branch: master
 
 before_script:
-  - "yarn global add gatsby"
+  - yarn
+  - yarn global add gatsby
