@@ -1,16 +1,20 @@
-# single-spa Website staging
-A place to play around and get Gatsby setup before turning into the official single-spa docs website.
+# Documentation website for single-spa
+This repo is a documentation website for [single-spa](https://github.com/canopytax/single-spa) built using [Gatsby](https://www.gatsbyjs.org/)
 
-## gatsby-starter-default
-The default Gatsby starter
+## Updating this website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+### Documentation
+The docs are just Markdown files that can be found in `./content/docs/`. Feel free to make a pull request that adds or updates any of the documentation found there -- you shouldn't even need to run this project locally to make these changes; you can just use Github's web UI to edit and create the PR.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+### Layout and templates
+To update the layouts and template of pages, you'll be working in the `./src/` folder. What you'll find there is basically a ReactJS project, getting data from a GraphQL backend using Relay. See the [development section](#developing) to get started.
 
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+## Developing
+1. `$ git clone https://github.com/CanopyTax/single-spa.js.org`
+1. `$ yarn add --global gatsby` or `npm i -g gastby`
+1. `$ cd single-spa.js.org`
+1. `$ yarn` or `npm i`
+1. `$ yarn develop` or `npm run develop`
+1. Follow the prompts in the console to access the local env or the local GraphQL endpoint
+1. Make changes in `./src/` for templates and layouts, or content updates in `./content/`
+1. Rejoice.
