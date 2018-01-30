@@ -1,7 +1,6 @@
 ---
 path: "/docs/index.html"
 title: "single-spa Documentation"
-prevLink: "/"
 nextLink: "/docs/v4/introduction.html"
 ---
 
