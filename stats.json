@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
     "component---src-templates-docs-template-js": [
-      "component---src-templates-docs-template-js-33c90a2d981d7a29dcc4.js",
-      "component---src-templates-docs-template-js-33c90a2d981d7a29dcc4.js.map"
+      "component---src-templates-docs-template-js-cb855d053aa7816f0bc8.js",
+      "component---src-templates-docs-template-js-cb855d053aa7816f0bc8.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-c9deb92442403b4c28eb.js",
       "component---src-pages-index-js-c9deb92442403b4c28eb.js.map"
     ],
     "path---docs-index-html": [
-      "path---docs-index-html-59affb79d86d1503cbb2.js",
-      "path---docs-index-html-59affb79d86d1503cbb2.js.map"
+      "path---docs-index-html-763aa2691c55ebdc16f2.js",
+      "path---docs-index-html-763aa2691c55ebdc16f2.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -57,8 +57,8 @@
       "build-js-styles.css.map"
     ],
     "path---docs-v-4-introduction-html": [
-      "path---docs-v-4-introduction-html-57709a4ad37351b82282.js",
-      "path---docs-v-4-introduction-html-57709a4ad37351b82282.js.map"
+      "path---docs-v-4-introduction-html-46bcd86a193760c3e6ad.js",
+      "path---docs-v-4-introduction-html-46bcd86a193760c3e6ad.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
