@@ -5,7 +5,7 @@ prevLink: "/docs/index.html"
 nextLink: "/docs/v4/xxxx.html"
 ---
 
-## v4 Introduction
+## Introduction
 
 ```jsx
 import React from 'react'
