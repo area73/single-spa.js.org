@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styles from './docsTemplate.module.css'
 
 export default function Template ({
-    data,
+  data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
