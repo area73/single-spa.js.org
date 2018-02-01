@@ -22,6 +22,11 @@ const typography = new Typography({
     "Helvetica",
     "sans-serif"
   ],
+  overrideStyles: () => ({
+    h2: {
+      marginTop: '2.5rem'
+    }
+  })
 });
 
 export default typography;

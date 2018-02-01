@@ -2,27 +2,14 @@
 path: "/docs/v3/introduction.html"
 title: "single-spa Documentation"
 prevLink: "/docs/index.html"
-nextLink: "/docs/v3/xxxx.html"
+nextLink: "/docs/v3/ecosystem.html"
 ---
 
-## v3 Introduction
+## single-spa documentation
 
-```jsx
-import React from 'react'
-
-export default HappyComponent extends React.Component {
-  render() {
-    return(
-      <div>
-        I'm happy!
-      </div>
-    )
-  }
-}
-```
-
-```css
-body {
-  background-color: blue;
-}
-```
+- [Registering applications]()
+- [Building applications]()
+- [API reference]()
+- [Separating applications out]()
+- [Ecosystem](/docs/v3/ecosystem.html)
+- [Migrating existing apps]()
