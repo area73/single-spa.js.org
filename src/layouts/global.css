@@ -33,6 +33,10 @@
   color: #52555A;
 }
 
+.gatsby-highlight {
+  margin-bottom: 1.45rem;
+}
+
 @media(min-width: 768px) {
   .sspa-container {
     margin: 0 auto;
