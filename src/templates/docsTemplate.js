@@ -6,7 +6,9 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter, html, fileAbsolutePath } = markdownRemark;
+  const singleSpaJsOrg = '/single-spa.js.org'
+  const relativeFilePath = fileAbsolutePath.slice(fileAbsolutePath.indexOf(singleSpaJsOrg) + singleSpaJsOrg.length)
   return (
     <div className="sspa-container">
       <div className="page">
@@ -30,6 +32,9 @@ export default function Template({
             </span>
           )}
         </div>
+        <a href={`https://github.com/CanopyTax/single-spa.js.org/edit/master${relativeFilePath}`} target="_blank">
+          Edit this page
+        </a>
       </div>
     </div>
   )
@@ -52,6 +57,7 @@ export const pageQuery = graphql`
   query PageByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      fileAbsolutePath
       frontmatter {
         path
         title

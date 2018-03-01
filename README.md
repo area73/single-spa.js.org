@@ -11,7 +11,7 @@ To update the layouts and template of pages, you'll be working in the `./src/` f
 
 ## Developing
 1. `git clone git@github.com:CanopyTax/single-spa.js.org.git`
-1. `yarn add --global gatsby` or `npm i -g gastby`
+1. `yarn add gatsby --global` or `npm i -g gastby`
 1. `cd single-spa.js.org`
 1. `yarn` or `npm i`
 1. `yarn develop` or `npm run develop`
